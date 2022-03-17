@@ -1,0 +1,98 @@
+body{
+  background-image: url("https://img5.goodfon.com/wallpaper/nbig/a/d1/cs-go-counter-strike-global-offensive-game.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.container{
+  margin-top: 40px;
+  font-family: Arial, sans-serif;
+  color: #d8db0c;
+  font-size: 17px;
+}
+h1{
+  margin-bottom: 5px;
+  font-size: 40px;
+  text-shadow: 1px 2px 3px #bd0101;
+}
+h2{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+#sortear{
+  padding: 15px;
+  width: 150px;
+  background-color: #ced3c5;
+  border-radius: 10px;
+  border-color: #b0b8a2 ;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+h3{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 23px;
+}
+#jogar{
+  position: relative;
+  padding: 10px;
+  width: 150px;
+  background-color: #ced3c5;
+  border-radius: 10px;
+  border-color: #b0b8a2 ;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  bottom: 50px;
+}
+.resultado_final {
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 15px;
+  background-color: #000000;
+}
+
+/*cartas*/
+.div_cartas{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#carta_jogador, #carta_maquina{
+  color: rgb(12, 0, 4);
+  width: 360px;
+  height: 500px;
+  overflow: auto;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  background-size: 350px 300px;
+  background-repeat: no-repeat;
+  background-position-x: 5px;
+  background-position-y: 10px;
+  border-radius: 33px;
+}
+.carta_subtitle {
+  z-index: 2;
+  margin-top: 30px;
+  margin-left: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+#atributo{ /*input type*/
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 1px;
+}
+.carta_status {
+  z-index: 2;
+  margin-top: 310px;
+  text-align: left;
+  color: #c6e78c;
+  font-size: 18px;
+}
